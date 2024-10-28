@@ -1,0 +1,107 @@
+.add-task-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    transition: transform 0.2s ease;
+    background-color: #4A628A;
+  }
+  
+  .add-task-button:hover {
+    transform: scale(1.1);
+  }
+  
+  .task-form-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+  }
+  
+  .task-form {
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 12px;
+    max-width: 40%;
+    width: 100%;
+    max-height: 70%;
+    overflow-y: auto;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+    position: relative;
+    text-align: left;
+    animation: slideDown 0.3s ease-out;
+  }
+  
+  @keyframes slideDown {
+    from {
+      transform: translateY(-20px);
+      opacity: 0;
+    }
+    to {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  
+  .task-form h2 {
+    margin-bottom: 10px;
+    font-size: 1.2rem;
+    color: #333;
+    text-align: center;
+  }
+  
+  .task-form label {
+    display: block;
+    font-size: 0.85rem;
+    font-weight: 600;
+    color: #555;
+    margin-bottom: 5px;
+  }
+  
+  .task-form input,
+  .task-form select,
+  .task-form textarea {
+    width: 100%;
+    padding: 6px;
+    margin-bottom: 12px;
+    font-size: 0.95rem;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    outline: none;
+    transition: border-color 0.2s ease;
+  }
+  
+  .task-form input:focus,
+  .task-form select:focus,
+  .task-form textarea:focus {
+    border-color: #007bff;
+  }
+  
+  .task-form textarea {
+    resize: vertical;
+  }
+  
+  .button-primary {
+    width: 100%;
+    padding: 8px;
+    font-size: 0.95rem;
+    font-weight: bold;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+    margin-top: 8px;
+  }
+  
+  .button-primary:hover {
+    background-color: #0056b3;
+  }
+  

@@ -1,0 +1,16 @@
+.list{
+   display: flex;
+   flex-direction: column;
+   height: 300px;
+   width:300px;
+   background-color:#7AB2D3;
+   gap:15px
+}
+.list-item{
+   margin-top: 10px;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   height: 20px;
+   width: 250px;
+}

@@ -1,0 +1,22 @@
+.main-container{
+  display: flex;
+  margin: 0;
+  background-color:#F5EFFF;
+  height:100vh;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+.app-card{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  height: 700px;
+  width: 600px;
+  background-color:#DFF2EB;
+  gap:5px;
+}
+
+

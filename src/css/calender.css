@@ -1,0 +1,13 @@
+.calender{
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     
+        margin-top: 10px;
+        height: 150px;
+        width: 500px;
+        background-color:#7AB2D3;
+        gap:1px;
+      
+    
+}

@@ -1,0 +1,15 @@
+.weekcard{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 120px;
+    width: 400px;
+    background-color: #7AB2D3;
+
+}
+.box
+{
+    background-color:#4A628A;
+   width: 180px;
+   height: 110px;
+}
