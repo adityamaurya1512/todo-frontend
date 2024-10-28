@@ -1,5 +1,5 @@
 // src/components/TaskList.tsx
-import React, { useEffect } from 'react';
+import  { useEffect } from 'react';
 import useTaskStore from '../store/useTaskStore';
 import '../css/tasklist.css'
 import ListItem from './list-item';
@@ -25,7 +25,7 @@ const TaskList = () => {
     <div className='list'>
      
         {tasks.map((task) => (
-          <ListItem/>
+          <ListItem title={task.title}/>
         ))}
       
     </div>

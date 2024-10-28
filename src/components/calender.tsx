@@ -1,6 +1,6 @@
 
 import DateComponent from "./date"
-import { useState } from "react";
+
 import moment from "moment";
 import '../css/calender.css'
 function Calender()
@@ -22,7 +22,7 @@ function Calender()
     }
     return(
         <div className="calender">
-          {datesOfWeek.map((item, index) => (
+          {datesOfWeek.map((item) => (
           <DateComponent key={item.day} weekday={item.day} weekdate={item.date} isoDate={item.isoDate}/>
         
          
